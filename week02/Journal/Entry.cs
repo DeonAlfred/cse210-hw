@@ -10,9 +10,9 @@ public class Entry
     {
         Console.WriteLine(_date);
 
-        
-    
-        
+
+
+
         Console.WriteLine(_promptText);
         {
 
@@ -24,14 +24,14 @@ public class Entry
 
 
         }
-    
+
         Console.WriteLine(_entryText);
         {
             string filename = " Write.txt";
 
             using (StreamWriter outputFile = new StreamWriter(filename))
             {
-                
+
                 string Write = "My  text";
                 outputFile.WriteLine(Write);
             }
